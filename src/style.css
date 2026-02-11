@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    /* Color Palette from provided image */
+    --poto-green: #399444;
+    --poto-lime: #8CC542;
+    --poto-olive: #818B5E;
+    --poto-dark: #1E293B;
+    --poto-beige-1: #EFECE4;
+    --poto-beige-2: #F6F5EE;
+    --poto-white: #FAFAF6;
+
+    /* Typography */
+    --font-primary: 'IvyMode', 'Playfair Display', serif;
+    --font-secondary: 'Inter', Helvetica, Arial, sans-serif;
+
+    --header-height: 80px;
+    /* Increased from 70px */
+}
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-secondary);
+    background-color: var(--poto-white);
+    color: var(--poto-dark);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.bold-title {
+    font-weight: 700 !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Layout Utilities */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 4rem 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

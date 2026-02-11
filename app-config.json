@@ -1,0 +1,21 @@
+{
+  "app": {
+    "title": "Poto",
+    "headerTitle": "Poto",
+    "headerColor": "#1843EF",
+    "textColor": "white",
+    "leftButton": "back",
+    "statusBar": "normal",
+    "actionBarHidden": false,
+    "hideAndroidBottomNavigationBar": false,
+    "hideIOSSafeAreaBottom": false
+  },
+  "listCSS": [
+    "style-BXPQr3kF.css"
+  ],
+  "listSyncJS": [
+    "inline.js",
+    "index-BOXLn7Xs.js"
+  ],
+  "listAsyncJS": []
+}
